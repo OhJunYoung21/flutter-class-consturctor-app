@@ -1,0 +1,29 @@
+void main(){
+  var obj = mouse('big mouse',1);
+}
+
+
+class mouse{
+//field//
+  String name;
+  int age;
+  
+  //constructor//
+  mouse(String name, int age){   //불러올 데이터의 자료형과 변수를 설정해준다.
+    this.name = name;            //this는 객체(obj)자신에 대한 포인터이다.
+    this.age = age;
+    print(this.name);
+    print(this.age);
+  }
+  
+  //function//
+  
+  eat(){
+    print('mouse eats');
+  }
+  sleeps(){
+    print("mouse sleeps");
+  }
+  
+  
+}
